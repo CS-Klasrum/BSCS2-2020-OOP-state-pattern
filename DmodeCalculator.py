@@ -1,10 +1,8 @@
 from tkinter import *
-from tkinter import PhotoImage
 class Calculator:
     def __init__(self, master):
         self.master = master
         master.title("Dark Mode Calculator")
-        self.btnState = False
         master.e = Entry(master, font="none 10", width=35, borderwidth=5)
         master.e.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
 
